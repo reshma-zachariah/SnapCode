@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F74CAD571BC05C3000A781A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74CAD561BC05C3000A781A6 /* AppDelegate.swift */; };
+		F74CAD591BC05C3000A781A6 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74CAD581BC05C3000A781A6 /* RootViewController.swift */; };
+		F74CAD5B1BC05C3000A781A6 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74CAD5A1BC05C3000A781A6 /* DataViewController.swift */; };
+		F74CAD5D1BC05C3000A781A6 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74CAD5C1BC05C3000A781A6 /* ModelController.swift */; };
+		F74CAD601BC05C3000A781A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74CAD5E1BC05C3000A781A6 /* Main.storyboard */; };
+		F74CAD621BC05C3000A781A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74CAD611BC05C3000A781A6 /* Assets.xcassets */; };
+		F74CAD651BC05C3000A781A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74CAD631BC05C3000A781A6 /* LaunchScreen.storyboard */; };
+		F74CAD701BC05C3000A781A6 /* SnapCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74CAD6F1BC05C3000A781A6 /* SnapCodeTests.swift */; };
+		F74CAD7B1BC05C3000A781A6 /* SnapCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74CAD7A1BC05C3000A781A6 /* SnapCodeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F74CAD6C1BC05C3000A781A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F74CAD4B1BC05C3000A781A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F74CAD521BC05C3000A781A6;
+			remoteInfo = SnapCode;
+		};
+		F74CAD771BC05C3000A781A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F74CAD4B1BC05C3000A781A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F74CAD521BC05C3000A781A6;
+			remoteInfo = SnapCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F74CAD531BC05C3000A781A6 /* SnapCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74CAD561BC05C3000A781A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F74CAD581BC05C3000A781A6 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		F74CAD5A1BC05C3000A781A6 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		F74CAD5C1BC05C3000A781A6 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		F74CAD5F1BC05C3000A781A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F74CAD611BC05C3000A781A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F74CAD641BC05C3000A781A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F74CAD661BC05C3000A781A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74CAD6B1BC05C3000A781A6 /* SnapCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74CAD6F1BC05C3000A781A6 /* SnapCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCodeTests.swift; sourceTree = "<group>"; };
+		F74CAD711BC05C3000A781A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74CAD761BC05C3000A781A6 /* SnapCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74CAD7A1BC05C3000A781A6 /* SnapCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCodeUITests.swift; sourceTree = "<group>"; };
+		F74CAD7C1BC05C3000A781A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F74CAD501BC05C3000A781A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74CAD681BC05C3000A781A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74CAD731BC05C3000A781A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F74CAD4A1BC05C3000A781A6 = {
+			isa = PBXGroup;
+			children = (
+				F74CAD551BC05C3000A781A6 /* SnapCode */,
+				F74CAD6E1BC05C3000A781A6 /* SnapCodeTests */,
+				F74CAD791BC05C3000A781A6 /* SnapCodeUITests */,
+				F74CAD541BC05C3000A781A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F74CAD541BC05C3000A781A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F74CAD531BC05C3000A781A6 /* SnapCode.app */,
+				F74CAD6B1BC05C3000A781A6 /* SnapCodeTests.xctest */,
+				F74CAD761BC05C3000A781A6 /* SnapCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F74CAD551BC05C3000A781A6 /* SnapCode */ = {
+			isa = PBXGroup;
+			children = (
+				F74CAD561BC05C3000A781A6 /* AppDelegate.swift */,
+				F74CAD581BC05C3000A781A6 /* RootViewController.swift */,
+				F74CAD5A1BC05C3000A781A6 /* DataViewController.swift */,
+				F74CAD5C1BC05C3000A781A6 /* ModelController.swift */,
+				F74CAD5E1BC05C3000A781A6 /* Main.storyboard */,
+				F74CAD611BC05C3000A781A6 /* Assets.xcassets */,
+				F74CAD631BC05C3000A781A6 /* LaunchScreen.storyboard */,
+				F74CAD661BC05C3000A781A6 /* Info.plist */,
+			);
+			path = SnapCode;
+			sourceTree = "<group>";
+		};
+		F74CAD6E1BC05C3000A781A6 /* SnapCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F74CAD6F1BC05C3000A781A6 /* SnapCodeTests.swift */,
+				F74CAD711BC05C3000A781A6 /* Info.plist */,
+			);
+			path = SnapCodeTests;
+			sourceTree = "<group>";
+		};
+		F74CAD791BC05C3000A781A6 /* SnapCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F74CAD7A1BC05C3000A781A6 /* SnapCodeUITests.swift */,
+				F74CAD7C1BC05C3000A781A6 /* Info.plist */,
+			);
+			path = SnapCodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F74CAD521BC05C3000A781A6 /* SnapCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74CAD7F1BC05C3000A781A6 /* Build configuration list for PBXNativeTarget "SnapCode" */;
+			buildPhases = (
+				F74CAD4F1BC05C3000A781A6 /* Sources */,
+				F74CAD501BC05C3000A781A6 /* Frameworks */,
+				F74CAD511BC05C3000A781A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapCode;
+			productName = SnapCode;
+			productReference = F74CAD531BC05C3000A781A6 /* SnapCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F74CAD6A1BC05C3000A781A6 /* SnapCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74CAD821BC05C3000A781A6 /* Build configuration list for PBXNativeTarget "SnapCodeTests" */;
+			buildPhases = (
+				F74CAD671BC05C3000A781A6 /* Sources */,
+				F74CAD681BC05C3000A781A6 /* Frameworks */,
+				F74CAD691BC05C3000A781A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F74CAD6D1BC05C3000A781A6 /* PBXTargetDependency */,
+			);
+			name = SnapCodeTests;
+			productName = SnapCodeTests;
+			productReference = F74CAD6B1BC05C3000A781A6 /* SnapCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F74CAD751BC05C3000A781A6 /* SnapCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74CAD851BC05C3000A781A6 /* Build configuration list for PBXNativeTarget "SnapCodeUITests" */;
+			buildPhases = (
+				F74CAD721BC05C3000A781A6 /* Sources */,
+				F74CAD731BC05C3000A781A6 /* Frameworks */,
+				F74CAD741BC05C3000A781A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F74CAD781BC05C3000A781A6 /* PBXTargetDependency */,
+			);
+			name = SnapCodeUITests;
+			productName = SnapCodeUITests;
+			productReference = F74CAD761BC05C3000A781A6 /* SnapCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F74CAD4B1BC05C3000A781A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Reshma Zachariah";
+				TargetAttributes = {
+					F74CAD521BC05C3000A781A6 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					F74CAD6A1BC05C3000A781A6 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = F74CAD521BC05C3000A781A6;
+					};
+					F74CAD751BC05C3000A781A6 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = F74CAD521BC05C3000A781A6;
+					};
+				};
+			};
+			buildConfigurationList = F74CAD4E1BC05C3000A781A6 /* Build configuration list for PBXProject "SnapCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F74CAD4A1BC05C3000A781A6;
+			productRefGroup = F74CAD541BC05C3000A781A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F74CAD521BC05C3000A781A6 /* SnapCode */,
+				F74CAD6A1BC05C3000A781A6 /* SnapCodeTests */,
+				F74CAD751BC05C3000A781A6 /* SnapCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F74CAD511BC05C3000A781A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74CAD651BC05C3000A781A6 /* LaunchScreen.storyboard in Resources */,
+				F74CAD621BC05C3000A781A6 /* Assets.xcassets in Resources */,
+				F74CAD601BC05C3000A781A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74CAD691BC05C3000A781A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74CAD741BC05C3000A781A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F74CAD4F1BC05C3000A781A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74CAD591BC05C3000A781A6 /* RootViewController.swift in Sources */,
+				F74CAD5D1BC05C3000A781A6 /* ModelController.swift in Sources */,
+				F74CAD5B1BC05C3000A781A6 /* DataViewController.swift in Sources */,
+				F74CAD571BC05C3000A781A6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74CAD671BC05C3000A781A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74CAD701BC05C3000A781A6 /* SnapCodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74CAD721BC05C3000A781A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74CAD7B1BC05C3000A781A6 /* SnapCodeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F74CAD6D1BC05C3000A781A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F74CAD521BC05C3000A781A6 /* SnapCode */;
+			targetProxy = F74CAD6C1BC05C3000A781A6 /* PBXContainerItemProxy */;
+		};
+		F74CAD781BC05C3000A781A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F74CAD521BC05C3000A781A6 /* SnapCode */;
+			targetProxy = F74CAD771BC05C3000A781A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F74CAD5E1BC05C3000A781A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F74CAD5F1BC05C3000A781A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F74CAD631BC05C3000A781A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F74CAD641BC05C3000A781A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F74CAD7D1BC05C3000A781A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F74CAD7E1BC05C3000A781A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F74CAD801BC05C3000A781A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnapCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = peshma.SnapCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F74CAD811BC05C3000A781A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnapCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = peshma.SnapCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F74CAD831BC05C3000A781A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnapCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = peshma.SnapCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapCode.app/SnapCode";
+			};
+			name = Debug;
+		};
+		F74CAD841BC05C3000A781A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnapCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = peshma.SnapCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapCode.app/SnapCode";
+			};
+			name = Release;
+		};
+		F74CAD861BC05C3000A781A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SnapCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = peshma.SnapCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnapCode;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F74CAD871BC05C3000A781A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SnapCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = peshma.SnapCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnapCode;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F74CAD4E1BC05C3000A781A6 /* Build configuration list for PBXProject "SnapCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74CAD7D1BC05C3000A781A6 /* Debug */,
+				F74CAD7E1BC05C3000A781A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F74CAD7F1BC05C3000A781A6 /* Build configuration list for PBXNativeTarget "SnapCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74CAD801BC05C3000A781A6 /* Debug */,
+				F74CAD811BC05C3000A781A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F74CAD821BC05C3000A781A6 /* Build configuration list for PBXNativeTarget "SnapCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74CAD831BC05C3000A781A6 /* Debug */,
+				F74CAD841BC05C3000A781A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F74CAD851BC05C3000A781A6 /* Build configuration list for PBXNativeTarget "SnapCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74CAD861BC05C3000A781A6 /* Debug */,
+				F74CAD871BC05C3000A781A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F74CAD4B1BC05C3000A781A6 /* Project object */;
+}
