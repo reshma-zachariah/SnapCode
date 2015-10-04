@@ -17,7 +17,6 @@
 		F74CAD701BC05C3000A781A6 /* SnapCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74CAD6F1BC05C3000A781A6 /* SnapCodeTests.swift */; };
 		F74CAD7B1BC05C3000A781A6 /* SnapCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74CAD7A1BC05C3000A781A6 /* SnapCodeUITests.swift */; };
 		F74CAD891BC06BA500A781A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74CAD881BC06BA500A781A6 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
-		F74CAD8E1BC07F6C00A781A6 /* animation.m in Sources */ = {isa = PBXBuildFile; fileRef = F74CAD8D1BC07F6C00A781A6 /* animation.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +54,6 @@
 		F74CAD7C1BC05C3000A781A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F74CAD881BC06BA500A781A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F74CAD8C1BC07F6B00A781A6 /* SnapCode-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnapCode-Bridging-Header.h"; sourceTree = "<group>"; };
-		F74CAD8D1BC07F6C00A781A6 /* animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = animation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +110,6 @@
 				F74CAD5A1BC05C3000A781A6 /* DataViewController.swift */,
 				F74CAD5C1BC05C3000A781A6 /* ModelController.swift */,
 				F74CAD5E1BC05C3000A781A6 /* Main.storyboard */,
-				F74CAD8D1BC07F6C00A781A6 /* animation.m */,
 				F74CAD611BC05C3000A781A6 /* Assets.xcassets */,
 				F74CAD631BC05C3000A781A6 /* LaunchScreen.storyboard */,
 				F74CAD661BC05C3000A781A6 /* Info.plist */,
@@ -275,7 +272,6 @@
 				F74CAD5D1BC05C3000A781A6 /* ModelController.swift in Sources */,
 				F74CAD5B1BC05C3000A781A6 /* DataViewController.swift in Sources */,
 				F74CAD571BC05C3000A781A6 /* AppDelegate.swift in Sources */,
-				F74CAD8E1BC07F6C00A781A6 /* animation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
