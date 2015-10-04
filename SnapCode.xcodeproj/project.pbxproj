@@ -11,12 +11,13 @@
 		F74CAD591BC05C3000A781A6 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74CAD581BC05C3000A781A6 /* RootViewController.swift */; };
 		F74CAD5B1BC05C3000A781A6 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74CAD5A1BC05C3000A781A6 /* DataViewController.swift */; };
 		F74CAD5D1BC05C3000A781A6 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74CAD5C1BC05C3000A781A6 /* ModelController.swift */; };
-		F74CAD601BC05C3000A781A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74CAD5E1BC05C3000A781A6 /* Main.storyboard */; };
+		F74CAD601BC05C3000A781A6 /* Main_old.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74CAD5E1BC05C3000A781A6 /* Main_old.storyboard */; };
 		F74CAD621BC05C3000A781A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74CAD611BC05C3000A781A6 /* Assets.xcassets */; };
 		F74CAD651BC05C3000A781A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74CAD631BC05C3000A781A6 /* LaunchScreen.storyboard */; };
 		F74CAD701BC05C3000A781A6 /* SnapCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74CAD6F1BC05C3000A781A6 /* SnapCodeTests.swift */; };
 		F74CAD7B1BC05C3000A781A6 /* SnapCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74CAD7A1BC05C3000A781A6 /* SnapCodeUITests.swift */; };
 		F74CAD891BC06BA500A781A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74CAD881BC06BA500A781A6 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		F74CAD941BC1263800A781A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74CAD931BC1263800A781A6 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +43,7 @@
 		F74CAD581BC05C3000A781A6 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		F74CAD5A1BC05C3000A781A6 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		F74CAD5C1BC05C3000A781A6 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
-		F74CAD5F1BC05C3000A781A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F74CAD5F1BC05C3000A781A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_old.storyboard; sourceTree = "<group>"; };
 		F74CAD611BC05C3000A781A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F74CAD641BC05C3000A781A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F74CAD661BC05C3000A781A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +55,7 @@
 		F74CAD7C1BC05C3000A781A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F74CAD881BC06BA500A781A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F74CAD8C1BC07F6B00A781A6 /* SnapCode-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnapCode-Bridging-Header.h"; sourceTree = "<group>"; };
+		F74CAD931BC1263800A781A6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +111,8 @@
 				F74CAD581BC05C3000A781A6 /* RootViewController.swift */,
 				F74CAD5A1BC05C3000A781A6 /* DataViewController.swift */,
 				F74CAD5C1BC05C3000A781A6 /* ModelController.swift */,
-				F74CAD5E1BC05C3000A781A6 /* Main.storyboard */,
+				F74CAD5E1BC05C3000A781A6 /* Main_old.storyboard */,
+				F74CAD931BC1263800A781A6 /* Main.storyboard */,
 				F74CAD611BC05C3000A781A6 /* Assets.xcassets */,
 				F74CAD631BC05C3000A781A6 /* LaunchScreen.storyboard */,
 				F74CAD661BC05C3000A781A6 /* Info.plist */,
@@ -241,9 +244,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F74CAD651BC05C3000A781A6 /* LaunchScreen.storyboard in Resources */,
+				F74CAD941BC1263800A781A6 /* Main.storyboard in Resources */,
 				F74CAD891BC06BA500A781A6 /* Images.xcassets in Resources */,
 				F74CAD621BC05C3000A781A6 /* Assets.xcassets in Resources */,
-				F74CAD601BC05C3000A781A6 /* Main.storyboard in Resources */,
+				F74CAD601BC05C3000A781A6 /* Main_old.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,12 +311,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F74CAD5E1BC05C3000A781A6 /* Main.storyboard */ = {
+		F74CAD5E1BC05C3000A781A6 /* Main_old.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F74CAD5F1BC05C3000A781A6 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Main_old.storyboard;
 			sourceTree = "<group>";
 		};
 		F74CAD631BC05C3000A781A6 /* LaunchScreen.storyboard */ = {
