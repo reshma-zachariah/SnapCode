@@ -16,6 +16,8 @@
 		F74CAD651BC05C3000A781A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74CAD631BC05C3000A781A6 /* LaunchScreen.storyboard */; };
 		F74CAD701BC05C3000A781A6 /* SnapCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74CAD6F1BC05C3000A781A6 /* SnapCodeTests.swift */; };
 		F74CAD7B1BC05C3000A781A6 /* SnapCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74CAD7A1BC05C3000A781A6 /* SnapCodeUITests.swift */; };
+		F74CAD891BC06BA500A781A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74CAD881BC06BA500A781A6 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		F74CAD8E1BC07F6C00A781A6 /* animation.m in Sources */ = {isa = PBXBuildFile; fileRef = F74CAD8D1BC07F6C00A781A6 /* animation.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		F74CAD761BC05C3000A781A6 /* SnapCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74CAD7A1BC05C3000A781A6 /* SnapCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCodeUITests.swift; sourceTree = "<group>"; };
 		F74CAD7C1BC05C3000A781A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74CAD881BC06BA500A781A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F74CAD8C1BC07F6B00A781A6 /* SnapCode-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnapCode-Bridging-Header.h"; sourceTree = "<group>"; };
+		F74CAD8D1BC07F6C00A781A6 /* animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = animation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +107,16 @@
 			isa = PBXGroup;
 			children = (
 				F74CAD561BC05C3000A781A6 /* AppDelegate.swift */,
+				F74CAD881BC06BA500A781A6 /* Images.xcassets */,
 				F74CAD581BC05C3000A781A6 /* RootViewController.swift */,
 				F74CAD5A1BC05C3000A781A6 /* DataViewController.swift */,
 				F74CAD5C1BC05C3000A781A6 /* ModelController.swift */,
 				F74CAD5E1BC05C3000A781A6 /* Main.storyboard */,
+				F74CAD8D1BC07F6C00A781A6 /* animation.m */,
 				F74CAD611BC05C3000A781A6 /* Assets.xcassets */,
 				F74CAD631BC05C3000A781A6 /* LaunchScreen.storyboard */,
 				F74CAD661BC05C3000A781A6 /* Info.plist */,
+				F74CAD8C1BC07F6B00A781A6 /* SnapCode-Bridging-Header.h */,
 			);
 			path = SnapCode;
 			sourceTree = "<group>";
@@ -193,6 +201,7 @@
 		F74CAD4B1BC05C3000A781A6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Reshma Zachariah";
 				TargetAttributes = {
@@ -235,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F74CAD651BC05C3000A781A6 /* LaunchScreen.storyboard in Resources */,
+				F74CAD891BC06BA500A781A6 /* Images.xcassets in Resources */,
 				F74CAD621BC05C3000A781A6 /* Assets.xcassets in Resources */,
 				F74CAD601BC05C3000A781A6 /* Main.storyboard in Resources */,
 			);
@@ -265,6 +275,7 @@
 				F74CAD5D1BC05C3000A781A6 /* ModelController.swift in Sources */,
 				F74CAD5B1BC05C3000A781A6 /* DataViewController.swift in Sources */,
 				F74CAD571BC05C3000A781A6 /* AppDelegate.swift in Sources */,
+				F74CAD8E1BC07F6C00A781A6 /* animation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,10 +417,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SnapCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = peshma.SnapCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SnapCode/SnapCode-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -417,10 +431,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SnapCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = peshma.SnapCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SnapCode/SnapCode-Bridging-Header.h";
 			};
 			name = Release;
 		};
