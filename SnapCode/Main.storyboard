@@ -230,7 +230,8 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OFF-cc-ScI">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <string key="text">I love tima!!! &lt;3333 c: ʚ♡⃛ɞ(ू•ᴗ•ू❁)
+goodnight babyyy</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="widthClass=compact" misplaced="YES">
@@ -246,7 +247,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8BA-KU-ZNJ">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="18"/>
-                                <state key="normal" title="menu">
+                                <state key="normal" title="Return to Menu">
                                     <color key="titleColor" red="0.13333333333333333" green="1" blue="0.41176470588235292" alpha="0.0" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=compact" misplaced="YES">
@@ -257,6 +258,15 @@
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEY-vc-Lgd">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Save As">
+                                    <color key="titleColor" red="0.13333333333333333" green="1" blue="0.41176470588235292" alpha="0.0" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="102" y="0.0" width="99" height="92"/>
+                                </variation>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -270,16 +280,19 @@
                             <constraint firstItem="OFF-cc-ScI" firstAttribute="leading" secondItem="i6I-vi-UOv" secondAttribute="leadingMargin" id="LGf-aq-sbI"/>
                             <constraint firstItem="OFF-cc-ScI" firstAttribute="top" secondItem="cL3-bP-Fc5" secondAttribute="bottom" constant="8" id="Zxc-wQ-G6A"/>
                             <constraint firstItem="cL3-bP-Fc5" firstAttribute="top" secondItem="i6I-vi-UOv" secondAttribute="topMargin" id="dDx-v7-CZC"/>
+                            <constraint firstItem="mEY-vc-Lgd" firstAttribute="leading" secondItem="8BA-KU-ZNJ" secondAttribute="trailing" constant="1" id="gCa-ED-RQA"/>
                             <constraint firstItem="cL3-bP-Fc5" firstAttribute="leading" secondItem="i6I-vi-UOv" secondAttribute="leadingMargin" constant="-20" id="rCE-4C-vVx"/>
                             <constraint firstItem="OFF-cc-ScI" firstAttribute="centerY" secondItem="i6I-vi-UOv" secondAttribute="centerY" id="ti6-3O-afK"/>
                             <constraint firstItem="OFF-cc-ScI" firstAttribute="centerX" secondItem="i6I-vi-UOv" secondAttribute="centerX" id="uxv-Qt-eFh"/>
                             <constraint firstAttribute="trailingMargin" secondItem="cL3-bP-Fc5" secondAttribute="trailing" constant="-20" id="vMo-tI-kl0"/>
+                            <constraint firstItem="mEY-vc-Lgd" firstAttribute="top" secondItem="i6I-vi-UOv" secondAttribute="topMargin" id="zEZ-2l-aph"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="OFF-cc-ScI"/>
                                 <exclude reference="cL3-bP-Fc5"/>
                                 <exclude reference="8BA-KU-ZNJ"/>
+                                <exclude reference="mEY-vc-Lgd"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="0HO-RP-agW"/>
@@ -288,6 +301,8 @@
                                 <exclude reference="dDx-v7-CZC"/>
                                 <exclude reference="rCE-4C-vVx"/>
                                 <exclude reference="vMo-tI-kl0"/>
+                                <exclude reference="gCa-ED-RQA"/>
+                                <exclude reference="zEZ-2l-aph"/>
                                 <exclude reference="75K-XQ-Ly8"/>
                                 <exclude reference="EwM-ij-6Ih"/>
                                 <exclude reference="GjP-es-hHc"/>
@@ -302,6 +317,7 @@
                                 <include reference="OFF-cc-ScI"/>
                                 <include reference="cL3-bP-Fc5"/>
                                 <include reference="8BA-KU-ZNJ"/>
+                                <include reference="mEY-vc-Lgd"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="0HO-RP-agW"/>
@@ -310,6 +326,8 @@
                                 <include reference="dDx-v7-CZC"/>
                                 <include reference="rCE-4C-vVx"/>
                                 <include reference="vMo-tI-kl0"/>
+                                <include reference="gCa-ED-RQA"/>
+                                <include reference="zEZ-2l-aph"/>
                                 <exclude reference="75K-XQ-Ly8"/>
                                 <include reference="EwM-ij-6Ih"/>
                                 <exclude reference="GjP-es-hHc"/>
